@@ -74,6 +74,10 @@ nav.mobile_nav {
 }
 
 /* Main */
+main {
+  height: 100%;
+  min-height: 100%;
+}
 
 .products_section {
   padding: 3rem 0;
