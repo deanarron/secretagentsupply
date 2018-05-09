@@ -84,14 +84,17 @@ nav.mobile_nav {
   width: 30%;
 }
 .product_image {
+  box-sizing: border-box;
   border: 4px solid black;
-  height: 9rem;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
 }
 .product_image img {
-  max-width: 8rem;
+  height: auto;
+  width: auto;
+  max-width: 9rem;
+  max-height: 9rem;
   vertical-align: middle;
   margin: auto;
 }
